@@ -1,0 +1,353 @@
+body{
+    
+}
+#nav p{
+    width: 71%;
+    height: 76px;
+    background-color: darkblue;
+    font-style: italic;
+    color: white;
+    font-size: 70px;
+    margin-top: 2%;
+    margin-left: 14%;
+}
+span{
+    font-size: 20px;
+    color: darkblue;
+    
+}
+marquee{
+    color: darkblue;
+    font-size: 50px;
+    margin-left: 0.5%;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#img{
+    margin-top: 0%;
+    margin-left: 14%;
+}
+#img p{
+    font-style: italic;
+}
+#img pre{
+    font-style: italic;
+    font-size: 20px;
+}
+
+#jpg{
+    margin-top: -32%;
+    margin-left: 42%;
+}
+#jpg p{
+    font-style: italic;
+    margin-top: -0.5%;
+    margin-left: 2%;
+}
+#jpg pre{
+    font-style: italic;
+    font-size: 20px;
+    margin-left: 2%;
+}
+
+#png{
+    margin-top: -32.8%;
+    margin-left: 74%;
+}
+#png p{
+    font-style: italic;
+    margin-top: 7%;
+    margin-left: 10%;
+}
+#png pre{
+    font-style: italic;
+    font-size: 20px;
+    margin-left: 10%;
+}
+
+
+.like {
+    cursor: pointer;
+    height: 100px;
+    width: 100px;
+    background-image: url(https://abs.twimg.com/a/1446542199/img/t1/web_heart_animation.png);
+    transform: translate(-50%, -50%);
+}
+
+.anim-like {
+    animation-name: anim-like;
+    animation-duration: 1s;
+    animation-timing-function: steps(28); 
+}
+@keyframes anim-like {
+    from{background-position: left;}
+    to{background-position: right;}
+}
+.likee {
+    cursor: pointer;
+    height: 100px;
+    width: 100px;
+    background-image: url(https://abs.twimg.com/a/1446542199/img/t1/web_heart_animation.png);
+    transform: translate(-35%, -50%);
+}
+
+
+
+.likeee {
+    cursor: pointer;
+    height: 100px;
+    width: 100px;
+    background-image: url(https://abs.twimg.com/a/1446542199/img/t1/web_heart_animation.png);
+    transform: translate(-15%, -50%);
+}
+
+
+
+.button{
+    display: flex;
+    transform: translate(4%, -380%);
+}
+.button2{
+    display: flex;
+    transform: translate(8%, -380%);
+}
+.button3{
+    display: flex;
+    transform: translate(24%, -380%);
+}
+.btn-info{
+    background-color: darkblue;
+    width: 3%;
+    height: 30px;
+    font-size: 18px;
+    margin-right: 1%;
+    color: white;
+    border-style: dotted;
+    border-radius: 40px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0px 8px 0px #0099e6;
+    position: relative;
+    transition: all 0.2 ease;
+}
+.btn-info:hover{
+    box-shadow: 0px 6px 0px #0099e6;
+    top: 2px;
+}
+.btn-info:active{
+    box-shadow: none;
+    top:8px;
+}
+.btn-info2{
+    background-color: darkblue;
+    width: 4.6%;
+    height: 30px;
+    font-size: 18px;
+    margin-right: 1.5%;
+    color: white;
+    border-style: dotted;
+    border-radius: 40px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0px 8px 0px #0099e6;
+    position: relative;
+    transition: all 0.2 ease;
+}
+.btn-info2:hover{
+    box-shadow: 0px 6px 0px #0099e6;
+    top: 2px;
+}
+.btn-info2:active{
+    box-shadow: none;
+    top:8px;
+}
+.btn-info3{
+    background-color: darkblue;
+    width: 10%;
+    height: 30px;
+    font-size: 18px;
+    margin-right: 3.5%;
+    color: white;
+    border-style: dotted;
+    border-radius: 40px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0px 8px 0px #0099e6;
+    position: relative;
+    transition: all 0.2 ease;
+}
+.btn-info3:hover{
+    box-shadow: 0px 6px 0px #0099e6;
+    top: 2px;
+}
+.btn-info3:active{
+    box-shadow: none;
+    top:8px;
+}
+
+.btn-warning{
+    background-color: orangered;
+    width: 3%;
+    height: 30px;
+    font-size: 20px;
+    margin-right: 1%;
+    margin-left: 1%;
+    color: white;
+    border-style: dotted;
+    border-radius: 40px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0px 8px 0px #ff7d04;
+    position: relative;
+    transition: all 0.2 ease;
+}
+.btn-warning:hover{
+    box-shadow: 0px 6px 0px #ff7d04;
+    top: 2px;
+}
+.btn-warning:active{
+    box-shadow: none;
+    top:8px;
+}
+.btn-warning2{
+    background-color: orangered;
+    width: 4.5%;
+    height: 30px;
+    font-size: 20px;
+    margin-right: 1.5%;
+    margin-left: 1.5%;
+    color: white;
+    border-style: dotted;
+    border-radius: 40px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0px 8px 0px #ff7d04;
+    position: relative;
+    transition: all 0.2 ease;
+}
+.btn-warning2:hover{
+    box-shadow: 0px 6px 0px #ff7d04;
+    top: 2px;
+}
+.btn-warning2:active{
+    box-shadow: none;
+    top:8px;
+}
+.btn-warning3{
+    background-color: orangered;
+    width: 10.5%;
+    height: 30px;
+    font-size: 20px;
+    margin-right: 1.5%;
+    margin-left: 3.5%;
+    color: white;
+    border-style: dotted;
+    border-radius: 40px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0px 8px 0px #ff7d04;
+    position: relative;
+    transition: all 0.2 ease;
+}
+.btn-warning3:hover{
+    box-shadow: 0px 6px 0px #ff7d04;
+    top: 2px;
+}
+.btn-warning3:active{
+    box-shadow: none;
+    top:8px;
+}
+
+.btn-danger{
+    background-color: red;
+    margin-right: 1%;
+    color: white;
+    border-style: dotted;
+    border-radius: 40px;
+    font-weight: bold;
+    width: 7%;
+    cursor: pointer;
+    box-shadow: 0px 8px 0px #e63600;
+    position: relative;
+    transition: all 0.2 ease;
+}
+.btn-danger:hover{
+    box-shadow: 0px 6px 0px #e63600;
+    top: 2px;
+}
+.btn-danger:active{
+    box-shadow: none;
+    top:8px;
+}
+
+.btn-danger2{
+    background-color: red;
+    margin-right: 1%;
+    color: white;
+    border-style: dotted;
+    border-radius: 40px;
+    font-weight: bold;
+    width: 10.5%;
+    cursor: pointer;
+    box-shadow: 0px 8px 0px #e63600;
+    position: relative;
+    transition: all 0.2 ease;
+}
+.btn-danger2:hover{
+    box-shadow: 0px 6px 0px #e63600;
+    top: 2px;
+}
+.btn-danger2:active{
+    box-shadow: none;
+    top:8px;
+}
+
+.btn-danger3{
+    background-color: red;
+    margin-left: 1.8%;
+    color: white;
+    border-style: dotted;
+    border-radius: 40px;
+    font-weight: bold;
+    width: 23%;
+    cursor: pointer;
+    box-shadow: 0px 8px 0px #e63600;
+    position: relative;
+    transition: all 0.2 ease;
+}
+.btn-danger3:hover{
+    box-shadow: 0px 6px 0px #e63600;
+    top: 2px;
+}
+.btn-danger3:active{
+    box-shadow: none;
+    top:8px;
+}
+
+.total1{
+    transform: translate(-0%, -450%);
+    font-weight: bold;
+    font-family: monospace, Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+}
+.total2{
+    transform: translate(-0%, -450%);
+    font-weight: bold;
+    font-family: monospace, Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+}
+.total3{
+    transform: translate(-0%, -450%);
+    font-weight: bold;
+    font-family: monospace, Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+}
+.pt{
+    transform: translate(42%, -200%);
+    font-weight: bold;
+    font-family: fantasy;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
